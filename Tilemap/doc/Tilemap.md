@@ -20,11 +20,11 @@ Unity Window  => Package Manager => 2D TilemapEditor => Install
 
 - PixelsPerUnit：每个单元像素数量，尽量选择2的次方数的像素，如16，32，64...
 
-![SpriteMode](img/SpriteMode.png)
+![SpriteMode](../img/SpriteMode.png)
 
 - SpriteEditor：指定尺寸切割图集。
 
-    ![SpriteEditor](img/SpriteEditor.png)
+    ![SpriteEditor](../img/SpriteEditor.png)
 
     
 
@@ -36,7 +36,7 @@ Unity Window  => Package Manager => 2D TilemapEditor => Install
 
     Window => 2D => Tile Palette
 
-    ![CreateTilePalette](img/CreateTilePalette.png)
+    ![CreateTilePalette](../img/CreateTilePalette.png)
 
 2. 载入瓦片素材
 
