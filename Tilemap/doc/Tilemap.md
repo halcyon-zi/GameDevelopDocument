@@ -52,7 +52,7 @@ Unity Window  => Package Manager => 2D TilemapEditor => Install
 
 5. 工具栏介绍（从上到下、从左到右介绍）
 
-    ![工具栏](img/工具栏.png)
+    ![工具栏](../img/工具栏.png)
 
     - 选中：场景中选中单个或多个方格以进行后续操作，如移动等。可以在使用别的工具时按住Ctrl实现选中。
     - 移动：先选中需要移动的单位再进行平移。
