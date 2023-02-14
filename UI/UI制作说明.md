@@ -35,7 +35,6 @@
     UGUI中最基础的控件之一，尺寸与**Canvas**一样大，仅有**Image**控件。
 
 <img title="" src="file:///img/Panel.png" alt="" data-align="center" width="254">
-![Panel](img/Panel.png)
 
 
     Panel多作为模块与模块之间的划分，如果你需要划分两个功能模块，例如技能按钮区与移动摇杆区，则可以将不同功能的UI放置在不同的Panel下。Image控件可以根据需求考虑是否保留。
@@ -44,7 +43,7 @@
 
     UGUI最基础的控件之一，具有**Image**控件。
 
-<img title="" src="file:///D:/Document/Work/Shooter/UIMaker/img/Image.png" alt="" data-align="center" width="268">
+<img title="" src="file:///img/Image.png" alt="" data-align="center" width="268">
 
 - SourceImage可以选择自己需要显示的图片
 
@@ -58,7 +57,7 @@
 
     UGUI最基础的控件之一，具有**Button**、**Image**和**Text**控件。
 
-   ![](D:\Document\Work\Shooter\UIMaker\img\Button1.png)    ![](D:\Document\Work\Shooter\UIMaker\img\Button2.png)
+   ![](img\Button1.png)    ![](img\Button2.png)
 
 - Image为Button上的图案，由于Button需要相应点击事件，因此RaycastTarget一般都勾选上
 
@@ -70,9 +69,9 @@
 
     UGUI中的**输入栏控件**，具有**Image**、**InputField**和两个**Text**
 
-<img src="file:///D:/Document/Work/Shooter/UIMaker/img/Input1.png" title="" alt="Input1.png" data-align="center">
+<img src="file:///img/Input1.png" title="" alt="Input1.png" data-align="center">
 
-<img src="file:///D:/Document/Work/Shooter/UIMaker/img/Input2.png" title="" alt="Input2.png" data-align="center">
+<img src="file:///img/Input2.png" title="" alt="Input2.png" data-align="center">
 
 - Image为输入栏的背景图片
 
@@ -86,7 +85,7 @@
 
     Text是UGUI中基本的**文本控件**，而TextMeshPro则为文本控件的Pro版本，可以实现Text所不能实现的更多效果，例如阴影、描边，不需要特殊效果的文字建议采用Text就足够，可以提升性能。
 
-    ![](D:\Document\Work\Shooter\UIMaker\img\Text.png)    ![](D:\Document\Work\Shooter\UIMaker\img\TextMeshPro.png)
+    ![](img\Text.png)    ![](img\TextMeshPro.png)
 
 - Text中的RaycastTarget与Maskable与Image的一样，不需要响应点击事件与遮罩时可以取消勾选
 
@@ -96,7 +95,7 @@
 
     UGUI中的**勾选框控件**，具有一个**背景框**，一个**已勾选图片**和**一段描述**
 
-<img src="file:///D:/Document/Work/Shooter/UIMaker/img/Toggle.png" title="" alt="" data-align="center">
+<img src="file:///img/Toggle.png" title="" alt="" data-align="center">
 
 - isOn为此时的勾选状态
 
@@ -104,7 +103,7 @@
 
     UGUI中的**下拉选单控件**。
 
-<img src="file:///D:/Document/Work/Shooter/UIMaker/img/Dropdown.png" title="" alt="" data-align="center">
+<img src="file:///img/Dropdown.png" title="" alt="" data-align="center">
 
 - Options为下拉选单的选项，可以自定义设置若干选项，每个选项对应的Sprite则为该选项的背景图片
 
@@ -112,7 +111,7 @@
 
     UGUI中的**滑动器控件**，可以滑动中间的**浮块**来确定当前的数值。
 
-<img src="file:///D:/Document/Work/Shooter/UIMaker/img/Slider.png" title="" alt="" data-align="center">
+<img src="file:///img/Slider.png" title="" alt="" data-align="center">
 
 - Direction为浮块的滑动方向
 
@@ -124,7 +123,7 @@
 
     UGUI中的**滚动列表控件**，由**一个Panel**和**两个滚动条**组成，是较为常用的一种控件。
 
-<img src="file:///D:/Document/Work/Shooter/UIMaker/img/ScrollView.png" title="" alt="" data-align="center">
+<img src="file:///img/ScrollView.png" title="" alt="" data-align="center">
 
 - HorizontalScrollbar、VerticalScrollbar分别为**水平滚动条**与**竖直滚动条**，不需要滚动条的话可以删除
 
@@ -138,7 +137,7 @@
 
     该部分主要介绍如何为UI以及其子节点命名，命名将采取**大驼峰**命名。
 
-<img title="" src="file:///D:/Document/Work/Shooter/UIMaker/img/Name.png" alt="" data-align="center">
+<img title="" src="file:///img/Name.png" alt="" data-align="center">
 
 ##### 2.1 窗口UI
 
@@ -158,13 +157,13 @@
 
 ### 三、自适应
 
-<img src="file:///D:/Document/Work/Shooter/UIMaker/img/RectTransform.png" title="" alt="" data-align="center">
+<img src="file:///img/RectTransform.png" title="" alt="" data-align="center">
 
     在Canvas下的UI，Transform组件会变成**RectTransform**，而RectTransform中的**Anchors**和**Pivot**是影响自适应的关键属性。
 
 ##### 3.1 Anchors（锚点）
 
-<img src="file:///D:/Document/Work/Shooter/UIMaker/img/Anchor.png" title="" alt="" data-align="center">
+<img src="file:///img/Anchor.png" title="" alt="" data-align="center">
 
     四个锚点确定在父UI上，无论父UI如何变化，子UI**四个顶点距离四个锚点的距离保持不变**，由此可以确定子UI希望位于父UI的哪个位置。
 
@@ -172,7 +171,7 @@
 
 ##### 3.2 Pivot（轴心）
 
-<img src="file:///D:/Document/Work/Shooter/UIMaker/img/Pivot.png" title="" alt="" data-align="center">
+<img src="file:///img/Pivot.png" title="" alt="" data-align="center">
 
     是UI本身的**中心点**，UI的**旋转**与**缩放**均会基于这个点。
 
@@ -186,7 +185,7 @@
 
 - HorizontalLayoutGroup：
   
-  <img title="" src="file:///D:/Document/Work/Shooter/UIMaker/img/HorizontalLayoutGroup.png" alt="" data-align="center">
+  <img title="" src="file:///img/HorizontalLayoutGroup.png" alt="" data-align="center">
   
   **水平布局组组件将其子布局元素并排放置在一起。**
   
@@ -200,7 +199,7 @@
 
 - VerticalLayoutGroup：
   
-  <img title="" src="file:///D:/Document/Work/Shooter/UIMaker/img/VerticalLayoutGroup.png" alt="" data-align="center">
+  <img title="" src="file:///img/VerticalLayoutGroup.png" alt="" data-align="center">
   
   **垂直布局组组件将子布局元素纵向放置。**
   
@@ -208,7 +207,7 @@
 
 - GridLayoutGroup：
   
-  <img src="file:///D:/Document/Work/Shooter/UIMaker/img/GridLayoutGroup.png" title="" alt="" data-align="center">
+  <img src="file:///img/GridLayoutGroup.png" title="" alt="" data-align="center">
   
   **网格布局组组件将其子布局元素放在网格中。**
   
@@ -222,7 +221,7 @@
 
 - ContentSizeFitter
   
-  <img src="file:///D:/Document/Work/Shooter/UIMaker/img/ContentSizeFitter.png" title="" alt="" data-align="center">
+  <img src="file:///img/ContentSizeFitter.png" title="" alt="" data-align="center">
   
   **内容大小适配器**充当布局控制器，可用于控制其自身布局元素的大小。查看实际自动布局系统的最简单方法是向带有文本组件的游戏对象添加内容大小适配器组件。
   
@@ -232,7 +231,7 @@
 
 - LayoutElement
   
-  <img src="file:///D:/Document/Work/Shooter/UIMaker/img/LayoutElement.png" title="" alt="" data-align="center">
+  <img src="file:///img/LayoutElement.png" title="" alt="" data-align="center">
   
   如果要**覆盖**最小大小、偏好大小或灵活大小，可通过向游戏对象添加**布局元素组件**来实现。
   
@@ -248,7 +247,7 @@
 
 - Mask
   
-  <img src="file:///D:/Document/Work/Shooter/UIMaker/img/Mask.png" title="" alt="Mask.png" data-align="center">
+  <img src="file:///img/Mask.png" title="" alt="Mask.png" data-align="center">
   
   **Mask**不是可见的 UI 控件，而是一种修改控件子元素外观的方法。遮罩将子元素限制（即“掩盖”）为父元素的形状。因此，如果子项比父项大，则子项仅包含在父项以内的部分才可见。
   
@@ -256,7 +255,7 @@
 
 - RectMask2D
   
-  <img src="file:///D:/Document/Work/Shooter/UIMaker/img/RectMask2D.png" title="" alt="" data-align="center">
+  <img src="file:///img/RectMask2D.png" title="" alt="" data-align="center">
   
   RectMask2D 的一个常见用途是显示较大区域的小部分。使用 RectMask2D 可框定此区域。
   
@@ -271,7 +270,7 @@
 
     制作UI的过程中，难免会遇到同一个**UI反复利用**的情况，例如各种按钮，各种确认窗口，各种道具图标等等，可以将这些UI做成一个**通用UI预制体**，以便在各种UI界面可以直接拖入使用，既能简化操作，又能保证UI风格统一。
 
-<img src="file:///D:/Document/Work/Shooter/UIMaker/img/CommonUI.png" title="" alt="" data-align="center">
+<img src="file:///img/CommonUI.png" title="" alt="" data-align="center">
 
 #### 5.2 子UI(ChildUI)
 
@@ -279,7 +278,7 @@
 
     子UI完成制作后，大部分情况都需要将子UI放置在一些布局内，例如布置在VerticalLayoutGroup中，因此可以先将做好的一个子UI拖入其中，复制多个来调整布局查看效果，之后再删除。
 
-<img src="file:///D:/Document/Work/Shooter/UIMaker/img/ChildUI.png" title="" alt="" data-align="center">
+<img src="file:///img/ChildUI.png" title="" alt="" data-align="center">
 
 ### 六、多语言配置
 
@@ -291,13 +290,13 @@
 
     首先需要在其根UI上添加【UIStaticLangReplacer】组件，然后将需要显示多语言的Text或者Image拖入相应位置，填写配置的多语言主键即可。
 
-<img src="file:///D:/Document/Work/Shooter/UIMaker/img/Language.png" title="" alt="" data-align="center">
+<img src="file:///img/Language.png" title="" alt="" data-align="center">
 
 #### 6.2 动态多语言
 
     动态多语言，则需要变更展示内容的多语言，例如玩家当前多少级，需要多少数量的材料等，需要有部分内容是动态变更的，这种多语言在配置的时候，需要将动态变更的部分用{x}表示出来，x表示第几个参数填入此空，x从0开始计数。
 
-<img title="" src="file:///D:/Document/Work/Shooter/UIMaker/img/Language2.png" alt="" data-align="center">
+<img title="" src="file:///img/Language2.png" alt="" data-align="center">
 
 ### 七、优化相关
 
@@ -325,7 +324,7 @@
 
 放置完图片后，记得重新打一下图集，对更新后的文件夹**右键->Tools->GenerateAtlas(UI) Recursively**。
 
-<img title="" src="file:///D:/Document/Work/Shooter/UIMaker/img/AtlasUI.png" alt="" data-align="center">
+<img title="" src="file:///img/AtlasUI.png" alt="" data-align="center">
 
 #### 8.3 UI动画路径
 
