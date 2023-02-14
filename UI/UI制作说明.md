@@ -34,7 +34,9 @@
 
     UGUI中最基础的控件之一，尺寸与**Canvas**一样大，仅有**Image**控件。
 
-<img title="" src="file:///D:/Document/Work/Shooter/UIMaker/img/Panel.png" alt="" data-align="center" width="254">
+<img title="" src="file:///img/Panel.png" alt="" data-align="center" width="254">
+![Panel](img/Panel.png)
+
 
     Panel多作为模块与模块之间的划分，如果你需要划分两个功能模块，例如技能按钮区与移动摇杆区，则可以将不同功能的UI放置在不同的Panel下。Image控件可以根据需求考虑是否保留。
 
